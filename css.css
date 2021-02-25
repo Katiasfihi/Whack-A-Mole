@@ -1,0 +1,67 @@
+body {
+   background-color: #c0c86d;
+   cursor: url(../Feed-A-Star-Mole-Game/mole-game/cursor.png), default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bg {
+    background-image: url(../Feed-A-Star-Mole-Game/mole-game/background.png);
+    /* background background-repeat: no-repeat; */
+    width: 1920px;
+    height: 1080px;
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+}
+
+ul {
+    width: 100%;
+}
+
+.first { 
+    border: 1px solid yellow;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.second {
+    border: 4px solid yellow;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.third {
+    border: 4px solid yellow;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hole-container {
+    margin: 0 auto;
+    width: 267px;
+    height: 267px;
+    background-color: black;
+    border-radius: 150px;
+}
+
+#hc1 {
+    background-color: transparent;   
+}
+
+#hc2 {
+    background-color: transparent;   
+}
