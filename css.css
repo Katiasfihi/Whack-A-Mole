@@ -6,7 +6,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 0;
-    margin: 0;
+    margin: 0; 
     height: 100vh;
     width: 100vw;
 }
@@ -19,35 +19,50 @@ body {
     display: flex; 
     justify-content: center;
     align-items: flex-end;
+    padding: 0;
+    margin: 0; 
 }
 
 ul {
     width: 100%;
 }
 
+.snake {
+    padding: 5rem;
+    margin-left: 4rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+    background-image: url(../Feed-A-Star-Mole-Game/mole-game/worm.png);
+    background-repeat: no-repeat;
+}
+
+
 .first { 
-    border: 1px solid yellow;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* padding: 0; */
+    margin-bottom: 1rem; 
+    margin-right: 2rem;
+    
+}
+
+.second {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
-}
-
-.second {
-    border: 4px solid yellow;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 1rem;
+    margin-right: 2rem;
 }
 .third {
-    border: 4px solid yellow;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-right: 2rem;
+
 }
 
 .hole-container {
@@ -56,12 +71,21 @@ ul {
     height: 267px;
     background-color: black;
     border-radius: 150px;
+    /*background-image: url(../Feed-A-Star-Mole-Game/mole-game/king-mole-hungry.png);
+    background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+
+
 }
 
 #hc1 {
     background-color: transparent;   
+    visibility: hidden;
+   
 }
 
 #hc2 {
     background-color: transparent;   
+    visibility: hidden; 
 }
